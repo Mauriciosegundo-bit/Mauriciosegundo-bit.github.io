@@ -1,0 +1,71 @@
+header{
+    background-image: url(cabeza2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.logo-relativo{
+    height: 540px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+
+.logo-relativo img{
+    position: absolute;
+    width: 180px;
+    top: 70px;
+    right: 0px;
+}
+
+.empresa{
+    position:absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+.empresa h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.empresa h2{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+nav a{
+    font-size: 13px;
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    z-index: 1000;
+    color: rgba(255,255,255,0.5);
+    transition: 0.3s
+}
+
+
+
+
